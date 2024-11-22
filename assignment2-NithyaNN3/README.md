@@ -18,7 +18,6 @@
 	Choose "Run As" > "Java Application" from the context menu.
 
 ## Some Housekeeping
-- Name of Repo on GitHub Classroom is AdvancedPrograming
 - Assumed that all times entered by user is correct "HH:MM" 24-our format
 - Assumed that Cart Flow leads to Order placement flow so 'Place Order' on Dashboard leads to Cart first and then Order payment
 - GUI expects user to have entered timings and have pressed 'Enter' after updating
@@ -82,7 +81,11 @@ LoginController (controller):
 **Overview:**
 
 -The Model layer consists of classes that represent the core data and business logic of the application, such as customer information, credit card details, food items, and the shopping cart.
+
 -The View layer consists of FXML files and CSS stylesheets that define the user interface and its visual appearance.
+
 -The Controller layer consists of classes that manage the interaction between the model and the view. Each controller is responsible for handling user actions, updating the model, and updating the view accordingly.
+
 -The MVC architecture promotes separation of concerns, making the codebase more modular, maintainable, and easier to test.
+
 -The model encapsulates the application's data and behavior, the view represents the presentation layer, and the controller acts as an intermediary between the model and the view, handling user input and updating the model accordingly.
