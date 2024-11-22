@@ -80,6 +80,7 @@ LoginController (controller):
 -Handles user registration and password recovery functionalities.
 
 **Overview:**
+
 -The Model layer consists of classes that represent the core data and business logic of the application, such as customer information, credit card details, food items, and the shopping cart.
 -The View layer consists of FXML files and CSS stylesheets that define the user interface and its visual appearance.
 -The Controller layer consists of classes that manage the interaction between the model and the view. Each controller is responsible for handling user actions, updating the model, and updating the view accordingly.
