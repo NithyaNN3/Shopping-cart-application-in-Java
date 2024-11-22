@@ -11,7 +11,7 @@
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/AdvancedPrograming/assignment2-NithyaNN3.git
+   git clone https://github.com/NithyaNN3/Shopping-cart-application-in-Java.git
 2. **Run Application:**
 	Open the main class (Main.java) located in the src directory.
 	Right-click on the Main class.
