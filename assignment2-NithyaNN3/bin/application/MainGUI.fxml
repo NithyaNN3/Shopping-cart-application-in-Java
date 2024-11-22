@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane fx:id="borderPane" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="application.MainController">
+    <center>
+        <Label fx:id="label" text="Hello, World!"/>
+    </center>
+    <bottom>
+        <Button text="Click Me!" onAction="#handleButtonClick"/>
+    </bottom>
+</BorderPane>

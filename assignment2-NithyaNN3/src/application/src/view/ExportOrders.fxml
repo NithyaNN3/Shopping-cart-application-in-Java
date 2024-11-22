@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="266.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ExportOrdersController">
+   <children>
+      <Text layoutX="52.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Directory:" />
+      <TextField fx:id="txtDestination" layoutX="114.0" layoutY="52.0" prefHeight="26.0" prefWidth="214.0" />
+      <Text layoutX="52.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File name:" />
+      <TextField fx:id="txtfileName" layoutX="114.0" layoutY="104.0" prefHeight="26.0" prefWidth="214.0" />
+      <Text layoutX="52.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter fields to be fetched:" />
+      <TextField fx:id="txtFields" layoutX="52.0" layoutY="167.0" prefHeight="26.0" prefWidth="214.0" />
+      <Label fx:id="lblMsg" layoutX="52.0" layoutY="211.0" prefHeight="18.0" prefWidth="231.0" />
+      <Button fx:id="btnExport" layoutX="328.0" layoutY="220.0" mnemonicParsing="false" onAction="#handleExportOrders" text="Export" />
+   </children>
+</AnchorPane>
